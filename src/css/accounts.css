@@ -1,0 +1,86 @@
+html{
+    color:#555;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.815)),url(../images/qna.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.signup, .login{
+    display: block;
+    background-color: rgba(85, 85, 85, 0.596);
+    margin-left: 40px;
+    margin-top: 50px; 
+    margin-right:60px;
+    width:40%;
+    padding:20px;
+    color:rgb(0,191,255);
+}
+.signup{
+    float: left;
+}
+.login{
+    float: right;
+}
+.word{
+    background-color: rgba(88, 110, 122, 0.877);
+    text-align: center;
+    font-family: 'Lato';
+}
+/* ----------------------------*/
+/* HEADER*/
+/*------------------------------*/
+.logo {
+    height: 100px;
+    width: auto;
+    float:left;
+    margin-top: 20px;
+    margin-left:40px;
+}
+.main-nav{
+    float: left;
+    list-style: none;
+    margin-top: 60px;
+}
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid rgb(0,191,255);
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#danger{
+    color:rgb(219, 41, 41);
+    background-color: #f0e2e2;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+  }
+  #success{
+    color:rgb(73, 231, 10);
+    background-color: #f0e2e2;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+  }
