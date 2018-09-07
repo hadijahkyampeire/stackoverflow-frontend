@@ -13,7 +13,7 @@ header{
 }
 .signup, .login{
     display: block;
-    background-color: rgba(85, 85, 85, 0.342);
+    background-color: rgba(85, 85, 85, 0.596);
     margin-left: 40px;
     margin-top: 50px; 
     margin-right:60px;
@@ -28,7 +28,7 @@ header{
     float: right;
 }
 .word{
-    background-color: rgba(88, 110, 122, 0.685);
+    background-color: rgba(88, 110, 122, 0.877);
     text-align: center;
     font-family: 'Lato';
 }
